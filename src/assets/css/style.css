@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+/*Definindo variáveis de cores */
+:root{
+    --primary-color:rgb(118, 185, 139);
+    --primary-color-darker: rgb(19, 72, 52);
+}
+
+
+*{
+    box-sizing: border-box;
+    outline: 0;
+}
+
+/*Estilização do body da pagina*/
+body{
+    margin: 0;
+    padding: 0;
+    background-color: var(--primary-color);
+    font-family: 'Open sans', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+/*Estilização da área ao redor do formulário*/
+.container{
+    max-width: 740px;
+    margin: 20px auto;
+    height: 300px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.container button{
+    height: 50px;
+    width: 200px;
+    background-color: var(--primary-color);
+    color: #fff;
+    border-radius: 10px;
+    position: relative;
+    right: -250px;
+    
+}
+
+.container button:hover{
+    background-color: #b0a9a9;
+    cursor: pointer; 
+
+}
+
+.container h1{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.cpf-gerado{
+    font-size: 2em;
+    color: var(--primary-color-darker);
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
